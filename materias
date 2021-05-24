@@ -1,0 +1,24 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="Stylesheet" href="estilos.css">
+	<title>Instituto Pitágoras</title>
+</head>
+<body>
+    <h1>Instituto Pitágoras  <img width="10%" alt="CHUZI" src="img\Chuzita3Dbiteta.jpg"> </h1>
+    <header> 
+        <nav>
+         <a  href="index.html"> Home</a> 
+         <a  href="quienes somos.html"> Quienes Somos</a> 
+         <a  href="materias.html"> Materias</a> 
+         <a  href="contactanos.html"> Contactanos</a> 
+        </nav>
+    <ul>
+        <li data-materia="Secundaria, UBA">Matematica</li>
+        <li data-materia="Ingresos, UBA">Quimica</li>
+        <li data-materia="Biofisica, UBA">Fisica</li>
+        <li data-materia="Facultades Varias">Analisis Matematico</li>
+        <li data-materia="UADE-UCES">Estadistica</li>
+    </ul>
+</body>
+</html>
