@@ -1,0 +1,126 @@
+output{
+    padding: 0.5%;
+    color:rgb(67,43,86) ;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background-color: #f8f5cf;
+}
+h1{
+    
+    background-color: rgb(196,153,224);
+    text-align: center;
+    border: 1px rgb(172, 171, 172); 
+    padding: 5%;
+    border-radius: 15px;
+    font-size: 8vw;
+
+}
+h2{ 
+    border: grey;
+}
+p{   
+    border: 2px solid black;
+    
+    display: block; 
+
+
+}
+h4{
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+}
+li{
+    position: relative;
+    width: 70%;
+    padding-bottom: 1%;
+    font-size: 1.5rem;
+}
+li:after {
+    content: "Nivel: "  attr(data-materia) ;
+    background-color: aqua;
+    border: 1px solid grey;
+    opacity: 0;
+    transition: 1.5s opacity;
+
+}
+li:hover:after{
+    opacity: 1;
+}
+
+footer{
+    background-color: rgb(57, 31, 70);
+    color: silver;
+}
+.contenedor {
+width: 90%;
+max-width: 1000px;
+margin: 20px auto;
+display: grid;
+gap: 20px;
+grid-template-columns: repeat (3,1fr);
+grid-template-rows: repeat(4, auto) ;
+grid-template-areas: "principal principal principal"
+                    "contenido contenido aside"
+                    "propaganda1 propaganda2 aside"
+                    "footer footer footer";
+
+}
+.contenedor > div,
+.contenedor .principal
+.contenedor .Contenido
+.contenedor .Aside
+.Propaganda1
+.Propaganda2
+{
+    padding:  20px;
+    border-radius: 4px;
+    gap: 20px;
+}
+
+.contenedor .principal{
+    background-color: rgb(57, 31, 70);
+    color: thistle;
+    grid-area: principal;
+}
+.contenedor .Contenido{
+    grid-area: contenido;
+}
+
+.contenedor .Aside{
+    background-color: teal;
+    text-align: center;
+    min-height: 100px;
+    min-width: 150px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: aside;
+}
+.contenedor .Propaganda1{
+    background-color: hotpink;
+    grid-area: propaganda1;
+}   
+.contenedor .Propaganda2{
+    background-color: rgb(105, 255, 138);
+    grid-area: propaganda2;
+     }
+    
+footer{
+grid-area: footer;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .contenedor{
+        grid-template-areas: "principal principal principal "
+        "contenido contenido contenido"
+        "aside aside aside "
+        "propaganda1 propaganda1 propaganda2"
+        "footer footer footer";
+    }}
