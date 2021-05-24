@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="Stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">    <title>Instituto Pitágoras</title> 
+    
+    <body>
+    
+        <div id="Main">
+    <h1>Instituto Pitágoras  <img width="10%" alt="CHUZI" src="img\Chuzita3Dbiteta.jpg"> </h1>
+    <header> 
+        <nav>
+         <a  href="index.html"> Home</a> 
+         <a  href="quienes somos.html"> Quienes Somos</a> 
+         <a  href="materias.html"> Materias</a> 
+         <a  href="contactanos.html"> Contactanos</a> 
+        </nav>
+        </header>
+</div>
+</header>
+
+<h2>Matemática, Física y Química</h2> 
+    <h3>Ingresos a Escuelas Medias y Universidades</h3>
+ 
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>Phasellus sed ante vel nisi dapibus consectetur vel eu quam. Phasellus molestie felis vitae rhoncus bibendum. Aliquam imperdiet nisl id risus dictum pretium. Praesent pulvinar auctor urna, a volutpat orci molestie eu. Morbi nec finibus ex. Donec et risus nec felis facilisis interdum id nec arcu. Pellentesque efficitur lacus ac mauris rutrum pellentesque. Ut ligula diam, vehicula a porttitor at, pellentesque ut ante. Donec at quam at mi eleifend varius ac a nisi.</p>
+</div>
+</div>
+
+
+</body>
+
+<footer>
+ <h5>DERECHOS RESERVADOS </h5>   
+</footer>
+</html>
