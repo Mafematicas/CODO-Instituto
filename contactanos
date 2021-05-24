@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="Stylesheet" href="estilos.css">
+	<title>Instituto Pitágoras</title>
+</head>
+<body>
+    <h1>Instituto Pitágoras  <img width="10%" alt="CHUZI" src="img\Chuzita3Dbiteta.jpg"> </h1>
+    <header> 
+        <nav>
+         <span class="menu-button">☰</span>
+         <a  href="index.html"> Home</a> 
+         <a  href="quienes somos.html"> Quienes Somos</a> 
+         <a  href="materias.html"> Materias</a> 
+         <a  href="contactanos.html"> Contactanos</a> 
+        </nav>
+<p>
+Formulario de Contactanos
+<form>
+    <label> Nombre  </label>
+    <input type="text"><br>
+    <label>  Email      </label>
+    <input type="email"><br>
+    <label> Comentario </label>
+    <input type="text"><br>
+    <br>
+    <input type="submit" value="Enviar">
+
+</form>
+
+</p>
